@@ -1,0 +1,32 @@
+{
+  "name": "Salesforce Bot for Messenger",
+  "description": "Sample Salesforce Bot for Messenger",
+  "env": {
+    "FB_PAGE_TOKEN": {
+        "description": "Facebook Messenger Access Token",
+        "value":"",
+        "required":false
+    },
+    "FB_VERIFY_TOKEN": {
+        "description": "Facebook Verify Token",
+        "value":""
+    },
+    "SF_CLIENT_ID": {
+        "description": "Consumer Key of your Salesforce Connected App",
+        "value":"3MVG9uudbyLbNPZPH1diiTkmf19MmX1o5czpNbgi8kbSI7amkTtsq5f9ytScv7IMg4U.YcGpUQydeIR52_6wQ
+"
+    },
+    "SF_CLIENT_SECRET": {
+        "description": "Consumer Secret of your Salesforce Connected App",
+        "value":"1436600201046993166"
+    },
+    "SF_USER_NAME": {
+        "description": "Salesforce username for your integration user",
+        "value":"tenha@perspectiva.in"
+    },
+    "SF_PASSWORD": {
+        "description": "Salesforce password for your integration user",
+        "value":"VsTBuR8uLsrIzMV306hn9fXdj"
+    }
+  }
+}
